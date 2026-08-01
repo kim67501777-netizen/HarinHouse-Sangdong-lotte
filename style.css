@@ -2,125 +2,174 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:"Noto Sans KR", sans-serif;
+    font-family:"Noto Sans KR",sans-serif;
 }
 
 body{
     color:#222;
-    line-height:1.6;
     background:#fff;
 }
 
 header{
-    background:#111;
+    background:#0b0b0b;
     color:white;
     text-align:center;
-    padding:30px 20px;
+    padding:35px 20px;
 }
 
 header h1{
-    font-size:34px;
-    letter-spacing:3px;
     color:#d4af37;
+    font-size:38px;
+    letter-spacing:4px;
 }
 
 header p{
     margin-top:10px;
-    font-size:18px;
+    font-size:20px;
 }
 
 
 .hero{
-    min-height:650px;
+
+    height:700px;
+
     display:flex;
-    align-items:center;
     justify-content:center;
+    align-items:center;
+
     text-align:center;
-    padding:40px 20px;
+
+    color:white;
 
     background:
     linear-gradient(
     rgba(0,0,0,.55),
-    rgba(0,0,0,.55)
+    rgba(0,0,0,.65)
     ),
-url("KakaoTalk_20260801_142934351.png")
+    url("KakaoTalk_20260801_142934351.png");
+
     background-size:cover;
     background-position:center;
-    color:white;
+
 }
 
 
 .hero h2{
-    font-size:42px;
-    margin-bottom:20px;
+
+    font-size:45px;
+    line-height:1.4;
+    margin-bottom:25px;
+
 }
 
+
 .hero p{
-    font-size:22px;
+
+    font-size:23px;
     margin-bottom:35px;
+
 }
+
 
 
 .btn{
+
     display:inline-block;
-    padding:15px 30px;
+
+    padding:16px 35px;
+
     margin:8px;
-    border-radius:30px;
-    background:#fff;
+
+    border-radius:40px;
+
+    background:white;
+
     color:#111;
+
     text-decoration:none;
+
     font-weight:bold;
+
 }
+
 
 
 .gold{
+
     background:#d4af37;
+
     color:white;
+
 }
+
 
 
 section{
+
     padding:70px 20px;
+
     text-align:center;
+
 }
+
 
 
 section h2{
-    font-size:32px;
-    margin-bottom:20px;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
 }
+
+
+
+section p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
 
 
 .box{
-    background:#f7f7f7;
+
+    background:#f6f6f6;
+
 }
+
 
 
 .box ul{
+
     list-style:none;
-    font-size:20px;
+
+    font-size:21px;
+
 }
+
+
 
 .box li{
-    margin:15px;
+
+    margin:18px;
+
 }
 
-
-.contact{
-    background:#111;
-    color:white;
-}
-
-.contact a{
-    color:#d4af37;
-    font-size:25px;
-    text-decoration:none;
-}
 
 
 footer{
-    background:#000;
+
+    background:#080808;
+
     color:white;
+
     text-align:center;
-    padding:20px;
+
+    padding:30px;
+
+    font-size:18px;
+
 }
