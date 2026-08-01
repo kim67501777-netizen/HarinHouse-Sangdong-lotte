@@ -173,3 +173,31 @@ footer{
     font-size:18px;
 
 }
+.fixed-buttons{
+    position:fixed;
+    bottom:20px;
+    left:0;
+    right:0;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    z-index:999;
+}
+
+.fixed-buttons a{
+    padding:15px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+}
+
+.call{
+    background:#111;
+    color:white;
+}
+
+.kakao{
+    background:#d4af37;
+    color:white;
+}
