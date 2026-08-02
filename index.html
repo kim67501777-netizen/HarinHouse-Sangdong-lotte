@@ -41,7 +41,7 @@ index.html
 </a>
 
 
-<a href="https://naver.me/GHL7eVnr" class="btn gold">
+<a href="#customer" class="btn gold">
 관심고객 등록
 </a>
 
@@ -86,6 +86,64 @@ index.html
 
 
 
+<section id="customer">
+
+<h2>관심고객 등록</h2>
+
+<p>
+분양 상담 신청 남겨주시면<br>
+빠르게 안내드리겠습니다.
+</p>
+
+
+<form id="customerForm">
+
+<input 
+id="name" 
+type="text" 
+placeholder="성함"
+required>
+
+
+<input 
+id="phone" 
+type="tel" 
+placeholder="연락처"
+required>
+
+
+<select id="type">
+
+<option value="상담문의">
+관심 타입 선택
+</option>
+
+<option value="59㎡">
+59㎡
+</option>
+
+<option value="84㎡">
+84㎡
+</option>
+
+<option value="방문예약">
+방문 예약
+</option>
+
+</select>
+
+
+<button class="btn gold" type="submit">
+관심고객 등록하기
+</button>
+
+
+</form>
+
+</section>
+
+
+
 <section>
 
 <h2>방문 예약</h2>
@@ -97,6 +155,7 @@ index.html
 <p>
 ☎ 010-6750-1777
 </p>
+
 
 <a href="https://pf.kakao.com/_PxcDxnX" class="btn gold">
 카카오톡 상담하기
@@ -117,8 +176,9 @@ HARIN HOUSE
 
 </footer>
 
-https://pf.kakao.com/_PxcDxnX
-<script src="script.js"></script>
+
+<script type="module" src="script.js"></script>
+
 
 </body>
 </html>
