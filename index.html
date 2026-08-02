@@ -1,319 +1,169 @@
 index.html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>하린하우스 | 상동역 롯데캐슬 시그니처</title>
 
-<meta name="description" content="상동역 롯데캐슬 시그니처 분양 상담 하린하우스">
+<style>
+*{
+ box-sizing:border-box;
+}
+body{
+ margin:0;
+ font-family:"Noto Sans KR",sans-serif;
+ color:#222;
+ line-height:1.6;
+}
+.hero{
+ background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65)),
+ url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
+ background-size:cover;
+ background-position:center;
+ height:90vh;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ text-align:center;
+ color:white;
+ padding:20px;
+}
+.hero h1{
+ font-size:38px;
+ margin-bottom:20px;
+}
+.hero p{
+ font-size:20px;
+}
 
-<link rel="stylesheet" href="style.css">
+.btn{
+ display:inline-block;
+ margin-top:30px;
+ background:#c9a45c;
+ color:white;
+ padding:16px 35px;
+ border-radius:40px;
+ text-decoration:none;
+ font-size:18px;
+ font-weight:bold;
+}
+
+section{
+ padding:50px 20px;
+ text-align:center;
+}
+
+.title{
+ font-size:28px;
+ font-weight:bold;
+ margin-bottom:20px;
+}
+
+.card{
+ max-width:900px;
+ margin:auto;
+ display:grid;
+ gap:20px;
+}
+
+.item{
+ background:#f7f7f7;
+ padding:25px;
+ border-radius:15px;
+}
+
+footer{
+ background:#111;
+ color:white;
+ text-align:center;
+ padding:30px;
+}
+</style>
 
 </head>
 
-
 <body>
 
-
-<header>
-
-<h1>HARIN HOUSE</h1>
-
-<p>
-상동역 롯데캐슬 시그니처
-</p>
-
-</header>
-
-
-
-<section class="hero">
+<div class="hero">
 
 <div>
-
-<h2>
-부천의 새로운 중심<br>
-상동역 프리미엄 라이프
-</h2>
-
+<h1>
+상동역 롯데캐슬 시그니처
+</h1>
 
 <p>
-더블 역세권의 가치<br>
-롯데캐슬 브랜드 프리미엄
+하린하우스 공식 상담 안내<br>
+프리미엄 주거공간의 새로운 기준
 </p>
 
-
-<a href="tel:01067501777" class="btn">
-☎ 상담 문의
+<a class="btn"
+href="https://naver.me/GHL7eVnr"
+target="_blank">
+관심고객 등록하기
 </a>
 
+</div>
 
-<a href="#customer" class="btn gold">
-관심고객 등록
-</a>
+</div>
 
+
+<section>
+
+<div class="title">
+왜 상동역 롯데캐슬인가?
+</div>
+
+<div class="card">
+
+<div class="item">
+🚇 상동역 생활권<br>
+편리한 교통과 풍부한 생활 인프라
+</div>
+
+<div class="item">
+🌳 쾌적한 주거환경<br>
+공원과 함께하는 프리미엄 라이프
+</div>
+
+<div class="item">
+🏠 롯데건설 브랜드 가치<br>
+검증된 품질과 주거 만족도
+</div>
 
 </div>
 
 </section>
 
 
-
-
 <section>
 
-
-<h2>
-Premium Location
-</h2>
-
+<div class="title">
+상담 예약
+</div>
 
 <p>
-교통 · 생활 · 미래가치를 갖춘<br>
-상동 핵심 입지
+방문 상담 및 관심 고객 등록을 남겨주시면<br>
+빠르게 안내드립니다.
 </p>
 
-
-</section>
-
-
-
-
-<section class="box">
-
-
-<h2>
-롯데캐슬 시그니처
-</h2>
-
-
-<ul>
-
-<li>상동역 중심 생활권</li>
-
-<li>편리한 교통 환경</li>
-
-<li>롯데캐슬 브랜드 가치</li>
-
-<li>쾌적한 주거 환경</li>
-
-<li>프리미엄 커뮤니티</li>
-
-
-</ul>
-
-
-</section>
-
-
-
-
-<section id="customer">
-
-
-<h2>
-관심고객 등록
-</h2>
-
-
-<p>
-분양 상담 신청을 남겨주시면<br>
-빠르게 안내드리겠습니다.
-</p>
-
-
-
-<form id="customerForm">
-
-
-
-<input
-id="name"
-type="text"
-placeholder="성함 입력"
-required>
-
-
-
-<input
-id="phone"
-type="tel"
-placeholder="연락처 입력"
-required>
-
-
-
-
-<select id="type" required>
-
-
-<option value="">
-관심 타입 선택
-</option>
-
-
-<option value="84A">
-84A
-</option>
-
-
-<option value="84B">
-84B
-</option>
-
-
-<option value="84C">
-84C
-</option>
-
-
-<option value="84D">
-84D
-</option>
-
-
-<option value="84E">
-84E
-</option>
-
-
-<option value="84F">
-84F
-</option>
-
-
-<option value="113A">
-113A
-</option>
-
-
-<option value="113B">
-113B
-</option>
-
-
-<option value="121">
-121
-</option>
-
-
-<option value="펜트하우스 상담">
-펜트하우스 상담
-</option>
-
-
-<option value="타입 미정">
-타입 미정
-</option>
-
-
-</select>
-
-
-
-
-<input
-
-id="visit"
-
-type="text"
-
-placeholder="방문 희망일 (예: 8월 10일)"
-
->
-
-
-
-
-<textarea
-
-id="message"
-
-placeholder="문의 내용을 입력해주세요"
-
-></textarea>
-
-
-
-
-<button
-
-type="submit"
-
-class="btn gold"
-
->
-
-관심고객 등록하기
-
-</button>
-
-
-
-</form>
-
-
-</section>
-
-
-
-
-
-<section>
-
-
-<h2>
-방문 예약
-</h2>
-
-
-<p>
-하린하우스 김하린 팀장
-</p>
-
-
-<p>
-☎ 010-6750-1777
-</p>
-
-
-
-<a href="https://pf.kakao.com/_PxcDxnX" class="btn gold">
-
-카카오톡 상담하기
-
+<a class="btn"
+href="https://naver.me/GHL7eVnr"
+target="_blank">
+무료 상담 신청
 </a>
 
-
-
 </section>
-
-
-
 
 
 <footer>
 
-
-HARIN HOUSE
-
-<br>
-
-상담문의 010-6750-1777
-
+하린하우스<br>
+상동역 롯데캐슬 시그니처 상담센터
 
 </footer>
 
 
-
-
-<script type="module" src="script.js"></script>
-
-
 </body>
-
 </html>
